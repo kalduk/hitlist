@@ -1,32 +1,27 @@
-# Hitlist
+[README.md](https://github.com/user-attachments/files/22990651/README.md)
 
-## Project Structure
+# hitlist prototype
 
-```
-hitlist/
-├── frontend/
-│   ├── index.html          ← layout BRAVO90 (Top 40 / Top 10)
-│   ├── editor.html         ← edytor-hybrid (manual + drag&drop)
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── main.js
-│
-├── backend/
-│   ├── server.js           ← prosty backend w Node.js (Express)
-│   ├── data/
-│   │   └── charts.json     ← przykładowe dane notowań
-│   └── package.json
-│
-└── README.md
-```
+This is a minimal prototype of the MUSIC CHART EDITOR (BRAVO90 style).
+It includes a static frontend (BRAVO90 preview + editor) and a tiny Express backend.
 
-## Description
+## Quick start (local)
 
-TODO: Add a project description here.
+1. Install Node.js (v16+ recommended).
+2. Unzip the package.
+3. In the `backend` folder run:
+   ```
+   npm install
+   npm start
+   ```
+4. Open http://localhost:3000 in your browser — frontend is served by the backend.
+   - `index.html` is the public BRAVO90 preview
+   - `editor.html` is the editor-hybrid prototype
 
-## Installation
+## Deploying to Render / Vercel
 
-TODO: Add installation instructions here.
+- Frontend (`/frontend`) can be deployed on Vercel or GitHub Pages.
+- Backend (`/backend`) can be deployed to Render — set startup command `npm start`.
 
-## Usage
+NOTE: This prototype's `/api/metadata` endpoint returns placeholders. To enable real metadata filling,
+connect Spotify/Apple APIs and implement server-side calls with credentials.
