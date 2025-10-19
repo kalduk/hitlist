@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MUSIC CHART EDITOR — Editor</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <h1>MUSIC CHART EDITOR — Editor</h1>
+  <p class="muted">editor-hybrid (prototype) — Top 40</p>
+</header>
+<main class="container">
+  <section id="editor">
+    <div class="controls">
+      <button id="loadPrevious">Kopiuj poprzednie notowanie</button>
+      <button id="saveDraft">Zapisz szkic</button>
+      <button id="publish">Publikuj (BRAVO90)</button>
+    </div>
+    <div id="rows"></div>
+    <div class="add-row">
+      <input id="newTitle" placeholder="Tytuł / wklej link Spotify/Apple" />
+      <input id="newArtist" placeholder="Wykonawca" />
+      <select id="newStatus"><option value="">Status</option><option value="N">N</option><option value="RE">RE</option><option value="DEL">DEL</option></select>
+      <button id="addBtn">+ Dodaj pozycję</button>
+    </div>
+  </section>
+</main>
+<script src="js/editor.js"></script>
+</body>
+</html>

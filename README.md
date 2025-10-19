@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/22990651/README.md)
 
 # hitlist prototype
 

@@ -1,0 +1,58 @@
+{
+  "issue_number": "#514",
+  "date": "1999-10-28",
+  "chart_type": "songs",
+  "scope": "top40",
+  "entries": [
+    {
+      "id": "e1",
+      "position": 1,
+      "previous_position": 1,
+      "title": "Killing Of A Flashboy",
+      "artist": "Suede",
+      "weeks_on_chart": 2,
+      "peak_position": 1,
+      "status": ""
+    },
+    {
+      "id": "e2",
+      "position": 2,
+      "previous_position": 2,
+      "title": "I Don’t Owe You Anything",
+      "artist": "Mr. Mister",
+      "weeks_on_chart": 8,
+      "peak_position": 2,
+      "status": ""
+    },
+    {
+      "id": "e3",
+      "position": 3,
+      "previous_position": null,
+      "title": "WSZYSTKO SIĘ SKOŃCZYŁO",
+      "artist": "KAYAH",
+      "weeks_on_chart": 1,
+      "peak_position": 3,
+      "status": "N"
+    },
+    {
+      "id": "e4",
+      "position": 4,
+      "previous_position": 10,
+      "title": "Ma Vie En Rose",
+      "artist": "Grace Jones",
+      "weeks_on_chart": 5,
+      "peak_position": 4,
+      "status": ""
+    },
+    {
+      "id": "e5",
+      "position": 5,
+      "previous_position": 3,
+      "title": "Jeszcze się tam żagiel bieli",
+      "artist": "Alicja Majewska",
+      "weeks_on_chart": 7,
+      "peak_position": 3,
+      "status": ""
+    }
+  ]
+}

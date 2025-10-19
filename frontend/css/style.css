@@ -1,0 +1,16 @@
+
+:root{--brand:#d40000;--muted:#666;--card:#fff;--bg:#f6f7f8}
+body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);margin:0;color:#111}
+.site-header{background:linear-gradient(90deg,#fff 0,#ffecec 100%);padding:18px;border-bottom:1px solid #eee;text-align:center}
+.container{max-width:900px;margin:22px auto;padding:0 16px}
+.card{background:var(--card);padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06);margin-bottom:12px}
+.row{display:grid;grid-template-columns:48px 1fr 220px 92px 160px 90px;gap:10px;align-items:center;padding:10px;border-radius:8px;border:1px solid #eee;background:#fff;margin-bottom:8px}
+.pos{font-weight:700;color:var(--brand);text-align:center}
+.title{font-weight:600}
+.artist{color:var(--muted);font-size:0.95rem}
+.meta{font-size:0.85rem;color:var(--muted)}
+.controls{display:flex;gap:8px;margin-bottom:12px}
+.controls button{padding:8px 10px;border-radius:8px;border:1px solid #ddd;background:#fff;cursor:pointer}
+.add-row{display:flex;gap:8px;margin-top:12px}
+.add-row input,.add-row select{padding:8px;border-radius:8px;border:1px solid #ddd}
+.muted{color:var(--muted)}
